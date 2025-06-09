@@ -1,0 +1,1 @@
+Administra un conjunto de espacios (asientos) en un cine y permite mostrar su estado (reservado o libre) usando colores en consola. También permite reservar o cancelar una reserva en un espacio específico.
