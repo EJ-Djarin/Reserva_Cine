@@ -1,0 +1,49 @@
+# Doxyfile 1.14.0
+
+# Proyecto
+PROJECT_NAME           = "Sistema de Reserva de Cine"
+PROJECT_BRIEF          = "Un sistema en C++ para reservar y cancelar espacios en un cine."
+PROJECT_LOGO           = 
+
+# Entradas
+INPUT                  = ./main.cpp
+FILE_PATTERNS          = *.cpp *.h
+RECURSIVE              = NO
+
+# Salida
+OUTPUT_DIRECTORY       = ./docs
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+
+# Configuración del código
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = NO
+EXTRACT_STATIC         = NO
+EXTRACT_LOCAL_METHODS  = NO
+
+# Idioma
+OUTPUT_LANGUAGE        = English
+
+# Código fuente en la documentación
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = YES
+
+# Generar diagramas con Graphviz (opcional, si tienes dot instalado)
+HAVE_DOT               = YES
+DOT_PATH               = 
+CLASS_DIAGRAMS         = YES
+CALL_GRAPH             = NO
+CALLER_GRAPH           = NO
+
+# Codificación
+INPUT_ENCODING         = UTF-8
+
+# Mensajes
+QUIET                  = NO
+WARNINGS               = YES
+WARN_IF_UNDOCUMENTED   = YES
+WARN_IF_DOC_ERROR      = YES
+
+# Otros
+GENERATE_TAGFILE       = 
+GENERATE_TREEVIEW      = YES

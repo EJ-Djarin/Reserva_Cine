@@ -1,0 +1,51 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compilar y Ejecutar Snake",
+      "type": "shell",
+      "command": "cmd.exe", 
+      "args": [
+        "/c",
+        "g++ main.cpp -o main.exe && main.exe" 
+        
+      ],
+      "options": {
+        "shell": {
+          "executable": "cmd.exe"
+        }
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Ejecutar Snake",
+      "type": "shell",
+      "command": "cmd.exe",
+      "args": [
+        "/c",
+        "main.exe && pause"
+      ],
+      "options": {
+        "shell": {
+          "executable": "cmd.exe"
+        }
+      },
+      "group": "none",
+      "problemMatcher": []
+    },
+    {
+  "label": "Generar Documentación Doxygen",
+  "type": "shell",
+  "command": "cmd.exe",
+  "args": [
+    "/c",
+    "doxygen Doxyfile"
+  ],
+  "problemMatcher": []
+}
+  ]
+}
